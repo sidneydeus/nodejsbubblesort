@@ -1,8 +1,8 @@
 # Coding Interview
 
-1. Into the file `src/lib/sort.js` implement the function `bubbleSort`, this function must receive an array as parameter and apply the the Bubble Sort algorithm over this array and return it ordered.
+1. Into the file `src/lib/sort.js` implement the function `bubbleSort`, this function must receive an array and apply the Bubble Sort algorithm over this array and return it ordered.
 
-The pseudo code ofbubble sort is:
+The pseudo code of bubble sort is:
 
 ```
 procedure bubbleSort( A : list of sortable items ) defined as:
@@ -18,9 +18,9 @@ procedure bubbleSort( A : list of sortable items ) defined as:
 end procedure
 ```
 
-2. You have to implemet an restful API. This API must expose an endpoint that receives an array in the body of the POST request and apply the sort function implemented in the last exercise. It must be implmented into the `src/server.js` file.
+2. You have to implement a restful API. This API must expose an endpoint that receives an array in the body of the POST request and applies the sort function implemented in the last exercise. The code must be defined in the `src/server.js` file.
 
-3. Implment a client side application where an user can declare an array and push it to the server to get it ordered. 
+3. Implement a client-side application where a user can declare an array and push it to the server to get it ordered. 
 
 
 
