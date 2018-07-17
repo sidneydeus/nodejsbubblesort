@@ -1,0 +1,14 @@
+{
+  "name": "conding-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  },
+  "author": "lucas@shawandpartners.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
+}
